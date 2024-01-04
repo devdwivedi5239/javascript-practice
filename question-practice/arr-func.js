@@ -113,3 +113,42 @@
 //     return e === reversed;
 // }) 
 // console.log(palindrome);
+
+
+
+// Reduce Function:
+
+// Sum of Array:
+// Given an array of numbers, use the reduce function to calculate the sum of all the numbers in the array.
+// const numArr = [1,2,3,4,5,3,234,2,3,4,23,4,32]
+// const sum = numArr.reduce((acc, curVal) => {
+//     return acc + curVal;
+// }, 0)
+// console.log(sum);
+
+
+// Product of Array:
+// Given an array of numbers, use the reduce function to calculate the product of all the numbers in the array.
+// const numArr = [1,2,3,4]
+// const product = numArr.reduce((acc, curVal) => {
+//     return acc * curVal;
+// }, 1)
+// console.log(product);
+
+
+// Concatenate Strings:
+// Given an array of strings, use the reduce function to concatenate them into a single string.
+// const strArr = ["this", "is", "a", "string"]
+// const concatenated = strArr.reduce((acc, curVal) => {
+//     return acc + " " + curVal;
+// })
+// console.log(concatenated);
+
+
+// Longest Word in Array:
+// Given an array of words, use the reduce function to find the longest word in the array.
+// const strArr = ["this", "is", "a", "string"];
+// const longestWord = strArr.reduce((longest, currentWord) => {
+//     return currentWord.length > longest.length ? currentWord : longest;
+// }, "");
+// console.log(longestWord);
