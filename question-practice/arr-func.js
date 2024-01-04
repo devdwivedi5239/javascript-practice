@@ -78,3 +78,38 @@
 // }
 
 // console.log(findLongest(arr));
+
+
+// Filter Function:
+
+// Filter Even Numbers:
+// Given an array of numbers, use the filter function to create a new array containing only even numbers.
+// let arr1 = [1,2,3,4,5,6,7];
+// let arr2 = arr1.filter((n)=>{
+//     return n % 2 === 0
+// })
+// console.log(arr2);
+
+
+// Filter Words by Length:
+// Given an array of words, use the filter function to create a new array containing only words with a length greater than or equal to 5.
+// const strArr = ["this", "is", "a","massive", "sentence"]
+// const newStrArr = strArr.filter(e => {
+//     return e.length >= 5;
+// })
+// console.log(newStrArr);
+
+// Filter Positive Numbers:
+// Given an array of numbers, use the filter function to create a new array containing only positive numbers.
+// const numArr = [-1,-32,42,32,-34,-432,3243];
+// const newNumArr = numArr.filter(n => n>0)
+// console.log(newNumArr);
+
+// Filter Palindromes:
+// Given an array of strings, use the filter function to create a new array containing only palindrome words.
+// const strArr = ["apple", "ball", "cat", "dad", "level"]
+// const palindrome = strArr.filter(e => {
+//     const reversed = e.split('').reverse().join('');
+//     return e === reversed;
+// }) 
+// console.log(palindrome);
